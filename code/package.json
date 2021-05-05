@@ -1,0 +1,23 @@
+{
+    "name": "spa-web-app-serverless",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=12"
+    },
+    "description": "SPA App backed by API GW and Lambda",
+    "main": "index.js",
+    "devDependencies": {
+        "eslint": "^7.25.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1"
+    },
+    "private": true,
+    "author": {
+        "name": "Mahmut Canga"
+    },
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@aws-cdk/aws-apigateway": "^1.100.0",
+        "@aws-cdk/aws-dynamodb": "^1.100.0"
+    }
+}

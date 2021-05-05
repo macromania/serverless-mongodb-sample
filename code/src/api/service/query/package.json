@@ -1,0 +1,14 @@
+{
+  "name": "query-service",
+  "version": "1.0.0",
+  "description": "DB Query Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci --colors --coverage --reporters=default --reporters=jest-junit"
+  },
+  "author": "Mahmut Canga",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mongodb": "^3.6.6"
+  }
+}
